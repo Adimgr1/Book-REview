@@ -33,7 +33,7 @@ function Navigation() {
             margin: "0 auto",
           }}
         >
-          <Link to="/home" style={{ textDecoration: "none" }}>
+          <Link to="/" style={{ textDecoration: "none" }}>
             <div style={{ color: "white" }}>Home</div>
           </Link>
 

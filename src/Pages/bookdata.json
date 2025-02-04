@@ -1,0 +1,48 @@
+[
+     {
+       "id": 1,
+       "name": "The Great Gatsby",
+       "author": "F. Scott Fitzgerald",
+       "image": "https://example.com/images/gatsby.jpg",
+       "description": "A classic novel set in the Jazz Age, exploring themes of wealth, love, and the American Dream.",
+       "genre": "Classic Fiction",
+       "rating": 4.5
+     },
+     {
+       "id": 2,
+       "name": "1984",
+       "author": "George Orwell",
+       "image": "https://example.com/images/1984.jpg",
+       "description": "A dystopian novel about a totalitarian regime that employs surveillance and control.",
+       "genre": "Dystopian",
+       "rating": 4.7
+     },
+     {
+       "id": 3,
+       "name": "To Kill a Mockingbird",
+       "author": "Harper Lee",
+       "image": "https://example.com/images/mockingbird.jpg",
+       "description": "A profound novel about racial injustice and moral growth in the American South.",
+       "genre": "Historical Fiction",
+       "rating": 4.8
+     },
+     {
+       "id": 4,
+       "name": "The Catcher in the Rye",
+       "author": "J.D. Salinger",
+       "image": "https://example.com/images/catcher.jpg",
+       "description": "A coming-of-age novel following the experiences of Holden Caulfield in New York.",
+       "genre": "Coming-of-Age",
+       "rating": 4.2
+     },
+     {
+       "id": 5,
+       "name": "The Hobbit",
+       "author": "J.R.R. Tolkien",
+       "image": "https://example.com/images/hobbit.jpg",
+       "description": "A fantasy novel that follows Bilbo Baggins on an adventure to reclaim a lost treasure.",
+       "genre": "Fantasy",
+       "rating": 4.9
+     }
+   ]
+   
