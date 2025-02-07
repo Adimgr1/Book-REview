@@ -1,22 +1,38 @@
 import { createContext, useState } from "react";
+import user from "./Pages/user.json";
+import { useNavigate } from "react-router-dom";
 
-let authContext= createContext();
-function authContextProvider(children){
-     let [isLoggedIn, setIsLoggedIn]= useState(false)
+let AuthContext = createContext({});
+function AuthContextProvider({ children }) {
+  let navigate= useNavigate()
+  let status = localStorage.getItem('status')==='true'
 
-     function logIn(){
-          setIsLoggedIn(true)
+  let [isLoggedIn, setIsLoggedIn] = useState(status);
 
-     }
-     function logOut(){
-          setIsLoggedIn(false)
-     }
 
-     return(
-          <authContext.Provider value={{isLoggedIn, logIn, logOut}}>
-               {children}
+  function logIn(email, password) {
+    let user_present = user.filter(
+      (user) => user.email == email && user.pass == password
+    );
+    if (user_present.length != 0) {
+      setIsLoggedIn(true);
+      navigate('/')
+      localStorage.setItem("status",true)
+      
+    }else{
+     setIsLoggedIn(false)
+     
+    }
+  }
+  function logOut() {
+    console.log("logged out")
+    setIsLoggedIn(false);
+  }
 
-          </authContext.Provider>
-     )
+  return (
+    <AuthContext.Provider value={{ isLoggedIn, logIn, logOut }}>
+      {children}
+    </AuthContext.Provider>
+  );
 }
-export {authContext, authContextProvider}
+export { AuthContext, AuthContextProvider };

@@ -1,14 +1,16 @@
 import Navigation from "../Components/nav"
 import Bookcard from "../Components/card-component"
-import bookdata from "./bookdata.json"
+import books from "./books.json"
+import Search from "../Components/search"
 function Booklist(){
      return(
           <>
+          
           <Navigation></Navigation>
-          {console.log(bookdata)}
-          <div className="d-flex p-5 gap-3">
-          {bookdata.map((books)=>(
-               <Bookcard child={books}></Bookcard>
+
+          <div className="d-flex flex-wrap gap-5" style={{marginLeft:"100px", marginTop:"30px"}}>
+          {books.map((books)=>(
+               <Bookcard key={books.id} child={books}></Bookcard>
 
           ))}
           </div>

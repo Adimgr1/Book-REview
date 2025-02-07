@@ -1,0 +1,934 @@
+[
+  {
+    "id": 1,
+    "name": "Book Title 1",
+    "author": "Author 1",
+    "image": "https://example.com/images/book1.jpg",
+    "description": "This is a description of Book 1. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 2,
+    "name": "Book Title 2",
+    "author": "Author 2",
+    "image": "https://example.com/images/book2.jpg",
+    "description": "This is a description of Book 2. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "name": "Book Title 3",
+    "author": "Author 3",
+    "image": "https://example.com/images/book3.jpg",
+    "description": "This is a description of Book 3. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 4,
+    "name": "Book Title 4",
+    "author": "Author 4",
+    "image": "https://example.com/images/book4.jpg",
+    "description": "This is a description of Book 4. It is a great read.",
+    "genre": "Fiction",
+    "featured":true,
+    "rating": 4.0
+  },
+  {
+    "id": 5,
+    "name": "Book Title 5",
+    "author": "Author 5",
+    "image": "https://example.com/images/book5.jpg",
+    "description": "This is a description of Book 5. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 6,
+    "name": "Book Title 6",
+    "author": "Author 6",
+    "image": "https://example.com/images/book6.jpg",
+    "description": "This is a description of Book 6. It is a great read.",
+    "genre": "Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 7,
+    "name": "Book Title 7",
+    "author": "Author 7",
+    "image": "https://example.com/images/book7.jpg",
+    "description": "This is a description of Book 7. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.0,
+    "trending": true
+  },
+  {
+    "id": 8,
+    "name": "Book Title 8",
+    "author": "Author 8",
+    "image": "https://example.com/images/book8.jpg",
+    "description": "This is a description of Book 8. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 9,
+    "name": "Book Title 9",
+    "author": "Author 9",
+    "image": "https://example.com/images/book9.jpg",
+    "description": "This is a description of Book 9. It is a great read.",
+    "genre": "Non-Fiction",
+    "featured":true,
+    "rating": 3.5
+  },
+  {
+    "id": 10,
+    "name": "Book Title 10",
+    "author": "Author 10",
+    "image": "https://example.com/images/book10.jpg",
+    "description": "This is a description of Book 10. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.0,
+    "featured": true
+  },
+  {
+    "id": 11,
+    "name": "Book Title 11",
+    "author": "Author 11",
+    "image": "https://example.com/images/book11.jpg",
+    "description": "This is a description of Book 11. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 12,
+    "name": "Book Title 12",
+    "author": "Author 12",
+    "image": "https://example.com/images/book12.jpg",
+    "description": "This is a description of Book 12. It is a great read.",
+    "genre": "Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 13,
+    "name": "Book Title 13",
+    "author": "Author 13",
+    "image": "https://example.com/images/book13.jpg",
+    "description": "This is a description of Book 13. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 14,
+    "name": "Book Title 14",
+    "author": "Author 14",
+    "image": "https://example.com/images/book14.jpg",
+    "description": "This is a description of Book 14. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.5,
+    "trending": true,
+    "featured": true
+  },
+  {
+    "id": 15,
+    "name": "Book Title 15",
+    "author": "Author 15",
+    "image": "https://example.com/images/book15.jpg",
+    "description": "This is a description of Book 15. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 16,
+    "name": "Book Title 16",
+    "author": "Author 16",
+    "image": "https://example.com/images/book16.jpg",
+    "description": "This is a description of Book 16. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 17,
+    "name": "Book Title 17",
+    "author": "Author 17",
+    "image": "https://example.com/images/book17.jpg",
+    "description": "This is a description of Book 17. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 18,
+    "name": "Book Title 18",
+    "author": "Author 18",
+    "image": "https://example.com/images/book18.jpg",
+    "description": "This is a description of Book 18. It is a great read.",
+    "genre": "Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 19,
+    "name": "Book Title 19",
+    "author": "Author 19",
+    "image": "https://example.com/images/book19.jpg",
+    "description": "This is a description of Book 19. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 20,
+    "name": "Book Title 20",
+    "author": "Author 20",
+    "image": "https://example.com/images/book20.jpg",
+    "description": "This is a description of Book 20. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.5,
+    "featured": true
+  },
+  {
+    "id": 21,
+    "name": "Book Title 21",
+    "author": "Author 21",
+    "image": "https://example.com/images/book21.jpg",
+    "description": "This is a description of Book 21. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 3.5,
+    "trending": true
+  },
+  {
+    "id": 22,
+    "name": "Book Title 22",
+    "author": "Author 22",
+    "image": "https://example.com/images/book22.jpg",
+    "description": "This is a description of Book 22. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 23,
+    "name": "Book Title 23",
+    "author": "Author 23",
+    "image": "https://example.com/images/book23.jpg",
+    "description": "This is a description of Book 23. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 24,
+    "name": "Book Title 24",
+    "author": "Author 24",
+    "image": "https://example.com/images/book24.jpg",
+    "description": "This is a description of Book 24. It is a great read.",
+    "genre": "Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 25,
+    "name": "Book Title 25",
+    "author": "Author 25",
+    "image": "https://example.com/images/book25.jpg",
+    "description": "This is a description of Book 25. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 26,
+    "name": "Book Title 26",
+    "author": "Author 26",
+    "image": "https://example.com/images/book26.jpg",
+    "description": "This is a description of Book 26. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 27,
+    "name": "Book Title 27",
+    "author": "Author 27",
+    "image": "https://example.com/images/book27.jpg",
+    "description": "This is a description of Book 27. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 28,
+    "name": "Book Title 28",
+    "author": "Author 28",
+    "image": "https://example.com/images/book28.jpg",
+    "description": "This is a description of Book 28. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.0,
+    "trending": true,
+    "featured": true
+  },
+  {
+    "id": 29,
+    "name": "Book Title 29",
+    "author": "Author 29",
+    "image": "https://example.com/images/book29.jpg",
+    "description": "This is a description of Book 29. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 30,
+    "name": "Book Title 30",
+    "author": "Author 30",
+    "image": "https://example.com/images/book30.jpg",
+    "description": "This is a description of Book 30. It is a great read.",
+    "genre": "Fiction",
+    "rating": 3.5,
+    "featured": true
+  },
+  {
+    "id": 31,
+    "name": "Book Title 31",
+    "author": "Author 31",
+    "image": "https://example.com/images/book31.jpg",
+    "description": "This is a description of Book 31. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 32,
+    "name": "Book Title 32",
+    "author": "Author 32",
+    "image": "https://example.com/images/book32.jpg",
+    "description": "This is a description of Book 32. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 33,
+    "name": "Book Title 33",
+    "author": "Author 33",
+    "image": "https://example.com/images/book33.jpg",
+    "description": "This is a description of Book 33. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 34,
+    "name": "Book Title 34",
+    "author": "Author 34",
+    "image": "https://example.com/images/book34.jpg",
+    "description": "This is a description of Book 34. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 35,
+    "name": "Book Title 35",
+    "author": "Author 35",
+    "image": "https://example.com/images/book35.jpg",
+    "description": "This is a description of Book 35. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.5,
+    "trending": true
+  },
+  {
+    "id": 36,
+    "name": "Book Title 36",
+    "author": "Author 36",
+    "image": "https://example.com/images/book36.jpg",
+    "description": "This is a description of Book 36. It is a great read.",
+    "genre": "Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 37,
+    "name": "Book Title 37",
+    "author": "Author 37",
+    "image": "https://example.com/images/book37.jpg",
+    "description": "This is a description of Book 37. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 38,
+    "name": "Book Title 38",
+    "author": "Author 38",
+    "image": "https://example.com/images/book38.jpg",
+    "description": "This is a description of Book 38. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 39,
+    "name": "Book Title 39",
+    "author": "Author 39",
+    "image": "https://example.com/images/book39.jpg",
+    "description": "This is a description of Book 39. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 40,
+    "name": "Book Title 40",
+    "author": "Author 40",
+    "image": "https://example.com/images/book40.jpg",
+    "description": "This is a description of Book 40. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.0,
+    "featured": true
+  },
+  {
+    "id": 41,
+    "name": "Book Title 41",
+    "author": "Author 41",
+    "image": "https://example.com/images/book41.jpg",
+    "description": "This is a description of Book 41. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 42,
+    "name": "Book Title 42",
+    "author": "Author 42",
+    "image": "https://example.com/images/book42.jpg",
+    "description": "This is a description of Book 42. It is a great read.",
+    "genre": "Fiction",
+    "rating": 3.5,
+    "trending": true,
+    "featured": true
+  },
+  {
+    "id": 43,
+    "name": "Book Title 43",
+    "author": "Author 43",
+    "image": "https://example.com/images/book43.jpg",
+    "description": "This is a description of Book 43. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 44,
+    "name": "Book Title 44",
+    "author": "Author 44",
+    "image": "https://example.com/images/book44.jpg",
+    "description": "This is a description of Book 44. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 45,
+    "name": "Book Title 45",
+    "author": "Author 45",
+    "image": "https://example.com/images/book45.jpg",
+    "description": "This is a description of Book 45. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 46,
+    "name": "Book Title 46",
+    "author": "Author 46",
+    "image": "https://example.com/images/book46.jpg",
+    "description": "This is a description of Book 46. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 47,
+    "name": "Book Title 47",
+    "author": "Author 47",
+    "image": "https://example.com/images/book47.jpg",
+    "description": "This is a description of Book 47. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 48,
+    "name": "Book Title 48",
+    "author": "Author 48",
+    "image": "https://example.com/images/book48.jpg",
+    "description": "This is a description of Book 48. It is a great read.",
+    "genre": "Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 49,
+    "name": "Book Title 49",
+    "author": "Author 49",
+    "image": "https://example.com/images/book49.jpg",
+    "description": "This is a description of Book 49. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.0,
+    "trending": true
+  },
+  {
+    "id": 50,
+    "name": "Book Title 50",
+    "author": "Author 50",
+    "image": "https://example.com/images/book50.jpg",
+    "description": "This is a description of Book 50. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.5,
+    "featured": true
+  },
+  {
+    "id": 51,
+    "name": "Book Title 51",
+    "author": "Author 51",
+    "image": "https://example.com/images/book51.jpg",
+    "description": "This is a description of Book 51. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 52,
+    "name": "Book Title 52",
+    "author": "Author 52",
+    "image": "https://example.com/images/book52.jpg",
+    "description": "This is a description of Book 52. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 53,
+    "name": "Book Title 53",
+    "author": "Author 53",
+    "image": "https://example.com/images/book53.jpg",
+    "description": "This is a description of Book 53. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 54,
+    "name": "Book Title 54",
+    "author": "Author 54",
+    "image": "https://example.com/images/book54.jpg",
+    "description": "This is a description of Book 54. It is a great read.",
+    "genre": "Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 55,
+    "name": "Book Title 55",
+    "author": "Author 55",
+    "image": "https://example.com/images/book55.jpg",
+    "description": "This is a description of Book 55. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 56,
+    "name": "Book Title 56",
+    "author": "Author 56",
+    "image": "https://example.com/images/book56.jpg",
+    "description": "This is a description of Book 56. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.5,
+    "trending": true,
+    "featured": true
+  },
+  {
+    "id": 57,
+    "name": "Book Title 57",
+    "author": "Author 57",
+    "image": "https://example.com/images/book57.jpg",
+    "description": "This is a description of Book 57. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 58,
+    "name": "Book Title 58",
+    "author": "Author 58",
+    "image": "https://example.com/images/book58.jpg",
+    "description": "This is a description of Book 58. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 59,
+    "name": "Book Title 59",
+    "author": "Author 59",
+    "image": "https://example.com/images/book59.jpg",
+    "description": "This is a description of Book 59. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 60,
+    "name": "Book Title 60",
+    "author": "Author 60",
+    "image": "https://example.com/images/book60.jpg",
+    "description": "This is a description of Book 60. It is a great read.",
+    "genre": "Fiction",
+    "rating": 3.5,
+    "featured": true
+  },
+  {
+    "id": 61,
+    "name": "Book Title 61",
+    "author": "Author 61",
+    "image": "https://example.com/images/book61.jpg",
+    "description": "This is a description of Book 61. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 62,
+    "name": "Book Title 62",
+    "author": "Author 62",
+    "image": "https://example.com/images/book62.jpg",
+    "description": "This is a description of Book 62. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 63,
+    "name": "Book Title 63",
+    "author": "Author 63",
+    "image": "https://example.com/images/book63.jpg",
+    "description": "This is a description of Book 63. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 3.5,
+    "trending": true
+  },
+  {
+    "id": 64,
+    "name": "Book Title 64",
+    "author": "Author 64",
+    "image": "https://example.com/images/book64.jpg",
+    "description": "This is a description of Book 64. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 65,
+    "name": "Book Title 65",
+    "author": "Author 65",
+    "image": "https://example.com/images/book65.jpg",
+    "description": "This is a description of Book 65. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 66,
+    "name": "Book Title 66",
+    "author": "Author 66",
+    "image": "https://example.com/images/book66.jpg",
+    "description": "This is a description of Book 66. It is a great read.",
+    "genre": "Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 67,
+    "name": "Book Title 67",
+    "author": "Author 67",
+    "image": "https://example.com/images/book67.jpg",
+    "description": "This is a description of Book 67. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 68,
+    "name": "Book Title 68",
+    "author": "Author 68",
+    "image": "https://example.com/images/book68.jpg",
+    "description": "This is a description of Book 68. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 69,
+    "name": "Book Title 69",
+    "author": "Author 69",
+    "image": "https://example.com/images/book69.jpg",
+    "description": "This is a description of Book 69. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 70,
+    "name": "Book Title 70",
+    "author": "Author 70",
+    "image": "https://example.com/images/book70.jpg",
+    "description": "This is a description of Book 70. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.0,
+    "featured": true,
+    "trending": true
+  },
+  {
+    "id": 71,
+    "name": "Book Title 71",
+    "author": "Author 71",
+    "image": "https://example.com/images/book71.jpg",
+    "description": "This is a description of Book 71. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 72,
+    "name": "Book Title 72",
+    "author": "Author 72",
+    "image": "https://example.com/images/book72.jpg",
+    "description": "This is a description of Book 72. It is a great read.",
+    "genre": "Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 73,
+    "name": "Book Title 73",
+    "author": "Author 73",
+    "image": "https://example.com/images/book73.jpg",
+    "description": "This is a description of Book 73. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 74,
+    "name": "Book Title 74",
+    "author": "Author 74",
+    "image": "https://example.com/images/book74.jpg",
+    "description": "This is a description of Book 74. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 75,
+    "name": "Book Title 75",
+    "author": "Author 75",
+    "image": "https://example.com/images/book75.jpg",
+    "description": "This is a description of Book 75. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 76,
+    "name": "Book Title 76",
+    "author": "Author 76",
+    "image": "https://example.com/images/book76.jpg",
+    "description": "This is a description of Book 76. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 77,
+    "name": "Book Title 77",
+    "author": "Author 77",
+    "image": "https://example.com/images/book77.jpg",
+    "description": "This is a description of Book 77. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.5,
+    "trending": true
+  },
+  {
+    "id": 78,
+    "name": "Book Title 78",
+    "author": "Author 78",
+    "image": "https://example.com/images/book78.jpg",
+    "description": "This is a description of Book 78. It is a great read.",
+    "genre": "Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 79,
+    "name": "Book Title 79",
+    "author": "Author 79",
+    "image": "https://example.com/images/book79.jpg",
+    "description": "This is a description of Book 79. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 80,
+    "name": "Book Title 80",
+    "author": "Author 80",
+    "image": "https://example.com/images/book80.jpg",
+    "description": "This is a description of Book 80. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.5,
+    "featured": true
+  },
+  {
+    "id": 81,
+    "name": "Book Title 81",
+    "author": "Author 81",
+    "image": "https://example.com/images/book81.jpg",
+    "description": "This is a description of Book 81. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 82,
+    "name": "Book Title 82",
+    "author": "Author 82",
+    "image": "https://example.com/images/book82.jpg",
+    "description": "This is a description of Book 82. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 83,
+    "name": "Book Title 83",
+    "author": "Author 83",
+    "image": "https://example.com/images/book83.jpg",
+    "description": "This is a description of Book 83. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 84,
+    "name": "Book Title 84",
+    "author": "Author 84",
+    "image": "https://example.com/images/book84.jpg",
+    "description": "This is a description of Book 84. It is a great read.",
+    "genre": "Fiction",
+    "rating": 3.5,
+    "trending": true,
+    "featured": true
+  },
+  {
+    "id": 85,
+    "name": "Book Title 85",
+    "author": "Author 85",
+    "image": "https://example.com/images/book85.jpg",
+    "description": "This is a description of Book 85. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 86,
+    "name": "Book Title 86",
+    "author": "Author 86",
+    "image": "https://example.com/images/book86.jpg",
+    "description": "This is a description of Book 86. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 87,
+    "name": "Book Title 87",
+    "author": "Author 87",
+    "image": "https://example.com/images/book87.jpg",
+    "description": "This is a description of Book 87. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 88,
+    "name": "Book Title 88",
+    "author": "Author 88",
+    "image": "https://example.com/images/book88.jpg",
+    "description": "This is a description of Book 88. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 89,
+    "name": "Book Title 89",
+    "author": "Author 89",
+    "image": "https://example.com/images/book89.jpg",
+    "description": "This is a description of Book 89. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 90,
+    "name": "Book Title 90",
+    "author": "Author 90",
+    "image": "https://example.com/images/book90.jpg",
+    "description": "This is a description of Book 90. It is a great read.",
+    "genre": "Fiction",
+    "rating": 3.5,
+    "featured": true
+  },
+  {
+    "id": 91,
+    "name": "Book Title 91",
+    "author": "Author 91",
+    "image": "https://example.com/images/book91.jpg",
+    "description": "This is a description of Book 91. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.0,
+    "trending": true
+  },
+  {
+    "id": 92,
+    "name": "Book Title 92",
+    "author": "Author 92",
+    "image": "https://example.com/images/book92.jpg",
+    "description": "This is a description of Book 92. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 93,
+    "name": "Book Title 93",
+    "author": "Author 93",
+    "image": "https://example.com/images/book93.jpg",
+    "description": "This is a description of Book 93. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 94,
+    "name": "Book Title 94",
+    "author": "Author 94",
+    "image": "https://example.com/images/book94.jpg",
+    "description": "This is a description of Book 94. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 95,
+    "name": "Book Title 95",
+    "author": "Author 95",
+    "image": "https://example.com/images/book95.jpg",
+    "description": "This is a description of Book 95. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.5
+  },
+  {
+    "id": 96,
+    "name": "Book Title 96",
+    "author": "Author 96",
+    "image": "https://example.com/images/book96.jpg",
+    "description": "This is a description of Book 96. It is a great read.",
+    "genre": "Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 97,
+    "name": "Book Title 97",
+    "author": "Author 97",
+    "image": "https://example.com/images/book97.jpg",
+    "description": "This is a description of Book 97. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 4.0
+  },
+  {
+    "id": 98,
+    "name": "Book Title 98",
+    "author": "Author 98",
+    "image": "https://example.com/images/book98.jpg",
+    "description": "This is a description of Book 98. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.5,
+    "trending": true,
+    "featured": true
+  },
+  {
+    "id": 99,
+    "name": "Book Title 99",
+    "author": "Author 99",
+    "image": "https://example.com/images/book99.jpg",
+    "description": "This is a description of Book 99. It is a great read.",
+    "genre": "Non-Fiction",
+    "rating": 3.5
+  },
+  {
+    "id": 100,
+    "name": "Book Title 100",
+    "author": "Author 100",
+    "image": "https://example.com/images/book100.jpg",
+    "description": "This is a description of Book 100. It is a great read.",
+    "genre": "Fiction",
+    "rating": 4.0,
+    "featured": true
+  }
+]
