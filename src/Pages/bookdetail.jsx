@@ -2,10 +2,11 @@ import Navigation from "../Components/nav";
 import { useParams } from "react-router-dom";
 import books from "../Pages/books.json";
 
+
 function Bookdetail() {
+  
   const { booklist, id } = useParams();
   let book = books.filter((books) => books.id == id);
-  console.log(book);
 
   return (
     <>
