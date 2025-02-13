@@ -8,43 +8,52 @@ import Signin from "./Pages/signin";
 import Signup from "./Pages/signup";
 import Privaterouting from "./Components/Privaterouting";
 import { AuthContextProvider } from "./authcontext";
+import Dashboard from "./Pages/dashboard";
 
 function App() {
   return (
     <>
-        
-          <Link to="/"></Link>
-          <Link to="/bookList"></Link>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/signin" element={<Signin />} />
-            <Route path="/signup" element={<Signup />} />
-            <Route path="/bookList" element={<Booklist />} />
-            <Route
-              path=":booklist/bookdetail/:id"
-              element={
-                <Privaterouting>
-                  <Bookdetail />
-                </Privaterouting>
-              }
-            />
-            <Route
-              path="/bookdetail/:id"
-              element={
-                <Privaterouting>
-                  <Bookdetail />
-                </Privaterouting>
-              }
-            />
-            <Route
-              path="/profile"
-              element={
-                <Privaterouting>
-                  <Profile />
-                </Privaterouting>
-              }
-            />
-          </Routes>
+      <Link to="/"></Link>
+      <Link to="/bookList"></Link>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/signin" element={<Signin />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/bookList" element={<Booklist />} />
+        <Route
+          path=":booklist/bookdetail/:id"
+          element={
+            <Privaterouting>
+              <Bookdetail />
+            </Privaterouting>
+          }
+        />
+        <Route
+          path="/bookdetail/:id"
+          element={
+            <Privaterouting>
+              <Bookdetail />
+            </Privaterouting>
+          }
+        />
+        <Route
+          path="/profile"
+          element={
+            <Privaterouting>
+              <Profile />
+            </Privaterouting>
+          }
+        />
+
+        <Route
+          path="/dashboard"
+          element={
+            <Privaterouting>
+              <Dashboard />
+            </Privaterouting>
+          }
+        />
+      </Routes>
     </>
   );
 }

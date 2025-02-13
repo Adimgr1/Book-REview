@@ -61,7 +61,7 @@ function Navigation() {
           </div>
           <div>
             <Link
-              to="/profile"
+              to="/dashboard"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               Dashboard
