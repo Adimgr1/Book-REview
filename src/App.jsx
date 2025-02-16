@@ -1,7 +1,9 @@
 import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
+import { Suspense } from "react";
+import React from "react";
 import "./App.css";
 import Home from "./Pages/home";
-import Booklist from "./Pages/bookList";
+const Booklist= React.lazy(()=>import ( "./Pages/bookList"));
 import Bookdetail from "./Pages/bookdetail";
 import Profile from "./Pages/profile";
 import Signin from "./Pages/signin";
@@ -19,7 +21,11 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/bookList" element={<Booklist />} />
+        <Route path="/bookList" element={<Suspense fallback={<h1>Loading...</h1>}>
+          
+          <Booklist/>
+
+        </Suspense>} />
         <Route
           path=":booklist/bookdetail/:id"
           element={
